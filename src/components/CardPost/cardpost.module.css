@@ -12,11 +12,7 @@
 
 .header figure {
     margin: 0;
-}
-
-.link {
-    text-decoration: none;
-    cursor: pointer;
+    position: relative;
 }
 
 .body {
@@ -31,7 +27,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 150%;
+    line-height: 150%; 
     margin: 0;
 }
 
@@ -46,4 +42,9 @@
 
 .footer {
     padding: 16px;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
 }
